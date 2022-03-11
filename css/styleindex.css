@@ -55,7 +55,7 @@
  a > img:hover {
      border-radius: 100px;
      float:right;
-     margin-right:50px !important;
+     margin-right:50px;
      -webkit-transition: all 1s ease-out;
      -moz-transition: all 1s ease-out;
      -o-transition: all 1s ease-out;
