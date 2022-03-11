@@ -1,15 +1,15 @@
 @charset "UTF-8";
 @font-face {
     font-family: 'Radio';
-    src: url('fonts/PhelixBoomgartner.ttf');
+    src: url('../fonts/PhelixBoomgartner.ttf');
 }
 @font-face {
     font-family: 'Radio2';
-    src: url('fonts/PhelixBoomgartner.otf');
+    src: url('../fonts/PhelixBoomgartner.otf');
 }
 
  body{
-     background-image: url(images/fundo-inicio.jpg);
+     background-image: url('../images/fundo-inicio.jpg');
      background-size: cover;
      background-repeat: no-repeat;
  }
