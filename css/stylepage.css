@@ -12,7 +12,15 @@ body {
     background-color: black;
 }
 
+header > img {
+    position: relative;
+    left: 120px;
+    top: -10px;
+}
+
 nav {
+    margin-left: 120px;
+    margin-top: -15px;
     text-align: center;
     background-image: linear-gradient( to right, #ee7202, black );
     padding: 10px;
