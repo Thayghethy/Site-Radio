@@ -44,6 +44,7 @@ nav > a:hover{
 main {
     min-width: 300px;
     max-width: 1000px;
+    min-height: 1000px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
@@ -71,6 +72,7 @@ aside h3 {
 
 aside > img {
     background-color: #ee7202;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.466);
     padding: 2px;
     width: 250px;
     height: 250px
@@ -95,4 +97,25 @@ aside > li > a > img {
 
 aside > li > a:hover {
     color: #ee7202;
+}
+
+
+h2#video {
+    color: #ee7202;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px 50px 0px 66px;
+    font-size: bold;
+}
+
+div#video {
+    background-color: #ee7202;
+    margin:  0px 66px 30px 325px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
+}
+
+div#video > iframe {
+    margin: 0px 0px 0px 20px;
+    border-radius: 5px;
 }
