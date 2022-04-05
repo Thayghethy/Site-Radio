@@ -9,15 +9,18 @@
     <link rel="stylesheet" href="css/styleindex.css">
 </head>
 <body>
-    <main>
-        <div id="logo">
-            <img id="logo" src="images/ppflogo01-vertical-negativo.png" alt="Logo Effect Radio">
-        </div>
-            <nav>
-            <a class="idioma" id="pt" href="sitept.html"><img src="images/brasil1.png" type="image/png"><br>PORTUGUES</a>
-            <a class="idioma" id="ig" href="siteig.html"><img src="images/ingles1.png" type="image/png"><br>ENGLISH</a>
-            </nav>
-    </main>
+    <nav id="pt">
+        <a href="sitept.html"><img src="images/brasil.jpg" alt="Português"></a>
+    </nav>
+    <nav id="in">
+        <a href="siteig.html"><img src="images/eua.jpg" alt="Inglês"></a>
+    </nav>
+    <video muted autoplay loop poster="images/fundo-inicio.png" id="bg_video">
+        <source src="videos/video_inicio.mp4" type="video/mp4">
+    </video>
+    <script>
+    document.getElementById('bg_video').play();
+    </script>
     <footer>
         <p>Effect Radio&copy; 2022. Todos os direitos reservados. </p>
     </footer>
