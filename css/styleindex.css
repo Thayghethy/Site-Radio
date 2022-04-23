@@ -8,10 +8,6 @@
     src: url('../fonts/PhelixBoomgartner.otf');
 }
 
- body{
-     
- }
-
  nav#pt > a > img {
      position: absolute;
      left: 0;

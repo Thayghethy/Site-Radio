@@ -16,7 +16,7 @@
   margin: 0;
   padding: 0;
 }
-
+/*MENU*/
 a {
   color: #fff;
   text-decoration: none;
@@ -30,9 +30,11 @@ a:hover {
 a.logo {
   font-family: 'Radio', 'Radio2', Arial, Helvetica, sans-serif;
   font-size: 35px;
-  text-shadow: rgba(0, 0, 0, 0.479);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
-
+header {
+  position: sticky;
+}
 nav {
   display: flex;
   justify-content: space-around;
@@ -117,4 +119,29 @@ nav {
 
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
+}
+/*FIM MENU*/
+/* VIDEO INICIO*/
+
+#bg_video {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    min-width: 100%;
+    min-height: 100%;
+    width: 71vh;
+    height: 56vw;
+    z-index: -100;
+    background-color: black;
+    background-size: cover;
+}
+/*FIM VIDEO INICIO*/
+/*CONTEÚDO INICIO*/
+div.container {
+    position: absolute;
+    left: 0;
+    bottom: -200px;
+    min-width: 100%;
+    min-height: 50%;
+    color: white;
 }
