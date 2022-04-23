@@ -134,6 +134,14 @@ nav {
     z-index: -100;
     background-color: black;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+h1#prop {
+  position: ;
+  font-family: 'Monster';
+  color: white;
+  margin: auto;
 }
 /*FIM VIDEO INICIO*/
 /*CONTEÚDO INICIO*/
