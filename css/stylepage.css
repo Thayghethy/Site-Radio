@@ -138,10 +138,14 @@ nav {
 }
 
 h1#prop {
-  position: ;
+  position: absolute;
+  bottom: 70vh;
+  left: 40vw;
+  letter-spacing: 5px;
   font-family: 'Monster';
+  font-size: 90px;
   color: white;
-  margin: auto;
+  z-index: -90;
 }
 /*FIM VIDEO INICIO*/
 /*CONTEÚDO INICIO*/
