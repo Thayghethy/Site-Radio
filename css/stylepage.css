@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 @font-face {
     font-family: 'Radio';
     src: url('../fonts/PhelixBoomgartner.ttf');
@@ -11,6 +12,7 @@
     font-family: 'Monster';
     src: url('../fonts/The Macabre.otf');
 }
+
 
 * {
   margin: 0;
@@ -137,15 +139,30 @@ nav {
     background-attachment: fixed;
 }
 
-h1#prop {
+img#logoMonster {
   position: absolute;
-  bottom: 70vh;
-  left: 40vw;
-  letter-spacing: 5px;
-  font-family: 'Monster';
-  font-size: 90px;
-  color: white;
+  bottom: 60vh;
+  left: 30vw;
   z-index: -90;
+}
+
+a > h1#prop {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.459);
+  border: 2px solid rgba(255, 255, 255, 0.459);
+  font-family: 'Dosis' ;
+  position: absolute;
+  bottom: 35vh;
+  left: 37%;
+  padding: 10px;
+  z-index: -90;
+}
+
+a > h1#prop:hover {
+  color: #ee7202;
+  border: 1px solid #ee7202;
+  padding: 5px;
+  transition: .5s;
 }
 /*FIM VIDEO INICIO*/
 /*CONTEÚDO INICIO*/
