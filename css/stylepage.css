@@ -164,13 +164,52 @@ a > h1#prop:hover {
   padding: 5px;
   transition: .5s;
 }
-/*FIM VIDEO INICIO*/
-/*CONTEÚDO INICIO*/
-div.container {
-    position: absolute;
-    left: 0;
-    bottom: -200px;
-    min-width: 100%;
-    min-height: 50%;
-    color: white;
+@media (max-width: 600px) {
+  img#logoMonster {
+  position: absolute;
+  height: 100px;
+  width: 350px;
+  bottom: 70vh;
+  left: 10vw;
+  z-index: -90;
 }
+a > h1#prop {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.459);
+  border: 2px solid rgba(255, 255, 255, 0.459);
+  font-family: 'Dosis' ;
+  position: absolute;
+  bottom: 4vh;
+  left: 15%;
+  padding: 10px;
+  z-index: -90;
+}
+a > h1#prop:hover {
+  color: #ee7202;
+  border: 1px solid #ee7202;
+  padding: 5px;
+  transition: .5s;
+}
+}
+
+
+/*FIM VIDEO INICIO*/
+/*CONTEÚDO INICIO
+div#band {
+  background-color: black;
+  position: absolute;
+  bottom: -40vh;
+  left: -1vh;
+}
+
+div#band > h3 {
+  font-family: 'Monster', Arial, Helvetica, sans-serif;
+  color: #ee7202;
+}
+div#band > img {
+  height: 290px;
+  width: 250px;
+  position: absolute;
+  bottom: 0vh;
+  left: 0vh;
+}*/
