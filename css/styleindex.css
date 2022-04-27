@@ -7,26 +7,38 @@
     font-family: 'Radio2';
     src: url('../fonts/PhelixBoomgartner.otf');
 }
+html
+{
+  position:fixed;
+  width:100%;
+  height:100%;
+}
+img#menu {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
 
- nav#pt > a > img {
-     position: absolute;
-     left: 0;
-     top: 0;
-     bottom: 0;
-     width: 8vw;
-     height: 100vh;
-     
- }
+img#menu {
+    position: absolute;
+    width: 800px;
+    height: 680px;
+    bottom: 0vw;
+    left: 35vh;
+}
 
-  nav#in > a > img {
-     position: absolute;
-     right: 0;
-     top: 0;
-     bottom: 0;
-     width: 8vw;
-     height: 100vh;
-     
- }
+img#mobmenu {
+    opacity: 0;
+}
 #bg_video {
     position: absolute;
     right: 0;
@@ -40,12 +52,30 @@
     background-size: cover;
 }
 
-
-footer {
-     color: white;
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 1em;
-     position: fixed;
-     bottom: 30px;
-     left: 480px;
- }
+@media (max-width: 600px) {
+    img#menu {
+        position: absolute;
+        bottom: 170vw;
+        left: 50vh;
+    }
+    img#mobmenu {
+        opacity: 1;
+        position: absolute;
+        bottom: 7vw;
+        left: -1vh;
+    }
+    img#mobmenu {
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+}

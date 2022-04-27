@@ -9,20 +9,22 @@
     <link rel="stylesheet" href="css/styleindex.css">
 </head>
 <body>
-    <nav id="pt">
-        <a href="sitept.html"><img src="images/brasil.jpg" alt="Português"></a>
-    </nav>
-    <nav id="in">
-        <a href="siteig.html"><img src="images/eua.jpg" alt="Inglês"></a>
-    </nav>
     <video muted autoplay loop poster="images/fundo-inicio.png" id="bg_video">
         <source src="videos/video_inicio.mp4" type="video/mp4">
     </video>
+    <img src="images/inicio.png" alt="inicio" usemap="#mapainicio" id="menu">
+    <map name="mapainicio">
+        <area shape="rect" coords="76, 452, 258, 593 " href="sitept.html" alt="Site em Português">
+        <area shape="rect" coords="523, 451, 706, 596" href="siteig.html" alt="Site in english">
+    </map>
+    <img src="images/inicio-pq.png" alt="inicio" usemap="#mapainiciopq" id="mobmenu">
+    <map name="mapainiciopq">
+        <area shape="rect" coords="40, 327, 157, 428" href="sitept.html" alt="Site em Português">
+        <area shape="rect" coords="314, 327, 429, 427" href="siteig.html" alt="Site in english">
+    </map>
     <script>
     document.getElementById('bg_video').play();
     </script>
-    <footer>
-        <p>Effect Radio&copy; 2022. Todos os direitos reservados. </p>
-    </footer>
+    
 </body>
 </html>
