@@ -135,7 +135,7 @@ nav {
 main {
     background-color: black;
     border-radius: 0px 0px 20px 20px;
-    min-height: 800px;
+    min-height: 1600px;
     max-width: 900px;
     margin: auto;
 }
@@ -147,7 +147,7 @@ article#banda > img {
     width: 330px;
     height: 200px;
     padding: 5px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 40px;
 }
 article#banda h2 {
     text-align: center;
@@ -200,7 +200,7 @@ article#bruno > img {
   width: 200px;
   height: 300px;
   padding: 5px;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 40px;
 }
 
 article#bruno h2 {
@@ -232,8 +232,8 @@ article#bruno a {
 }
 
 article#bruno > img:hover {
-  width: 400px;
-  height: 600px;
+  width: 240px;
+  height: 340px;
   background-color: #ee7202;
   padding: 1px;
   transition: 1.5s;
@@ -244,15 +244,225 @@ article#bruno > img:hover {
     float: right;
     height: 300px;
     width: 200px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 40px;
     padding: 10px;
 
   }
   article#bruno > img:hover {
-    width: 300px;
-    height: 450px;
+    width: 240px;
+    height: 340px;
     background-color: #ee7202;
     padding: 1px;
     transition: 1.5s;
+  }
+}/*FIM ARTICLE BRUNO*/
+/*INICIO ARTICLE LUAN*/
+article#luan > img {
+  float: left;
+  width: 290px;
+  height: 210px;
+  padding: 5px;
+  border-radius: 10px 40px;
+}
+
+article#luan h2 {
+  font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  color: #fff;
+  text-align: center;
+}
+
+article#luan p {
+  font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: #fff;
+  padding: 5px;
+}
+
+article#luan a > img {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+article#luan a {
+  font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+}
+
+article#luan > img:hover {
+  width: 330px;
+  height: 250px;
+  background-color: #ee7202;
+  padding: 1px;
+  transition: 1.5s;
+}
+
+@media (max-width: 600px) {
+  article#luan > img {
+    float: left;
+    height: 170px;
+    width: 250px;
+    border-radius: 10px 40px;
+    padding: 10px;
+
+  }
+  article#luan > img:hover {
+    width: 290px;
+    height: 210px;
+    background-color: #ee7202;
+    padding: 1px;
+    transition: 1.5s;
+  }
+} /*FIM ARTICLE LUAN*/
+/*INICIO ARTICLE THAY*/
+article#thay > img {
+  float: right;
+  width: 200px;
+  height: 310px;
+  padding: 5px;
+  border-radius: 10px 40px;
+}
+
+article#thay h2 {
+  font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  color: #fff;
+  text-align: center;
+}
+
+article#thay p {
+  font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: #fff;
+  padding: 5px;
+}
+
+article#thay a > img {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+article#thay a {
+  font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+}
+
+article#thay > img:hover {
+  width: 240px;
+  height: 350px;
+  background-color: #ee7202;
+  padding: 1px;
+  transition: 1.5s;
+}
+
+@media (max-width: 600px) {
+  article#thay > img {
+    float: right;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px 40px;
+    padding: 10px;
+
+  }
+  article#thay > img:hover {
+    width: 240px;
+    height: 340px;
+    background-color: #ee7202;
+    padding: 1px;
+    transition: 1.5s;
+  }
+}/*FIM ARTICLE THAY*/
+/*INICIO ARTICLE EROS*/
+article#eros > img {
+  float: left;
+  width: 200px;
+  height: 310px;
+  padding: 5px;
+  border-radius: 10px 40px;
+}
+
+article#eros h2 {
+  font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  color: #fff;
+  text-align: center;
+}
+
+article#eros p {
+  font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: #fff;
+  padding: 5px;
+}
+
+article#eros a > img {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+article#eros a {
+  font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+}
+
+article#eros > img:hover {
+  width: 240px;
+  height: 350px;
+  background-color: #ee7202;
+  padding: 1px;
+  transition: 1.5s;
+}
+
+@media (max-width: 600px) {
+  article#eros > img {
+    float: left;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px 40px;
+    padding: 10px;
+
+  }
+  article#eros > img:hover {
+    width: 240px;
+    height: 340px;
+    background-color: #ee7202;
+    padding: 1px;
+    transition: 1.5s;
+  }
+} /*FIM ARTICLE EROS*/
+/*FOOTER*/
+footer > p {
+  font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  color: white;
+  position: absolute;
+  left: 67vh;
+  bottom: -75vw;
+}
+
+footer > p > a {
+  font-family: 'Dosis', Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  footer > p {
+    font-family: 'Dosis', Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    color: white;
+    position: absolute;
+    left: 3vh;
+    bottom: -320vw;
   }
 }
